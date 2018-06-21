@@ -1,0 +1,19 @@
+
+  <view class="container ">
+    <view class="header">
+      <view style="position: relative;">
+        <image class="widget__arrow" src="./../img/logo@2x.png" mode="aspectFill"/>  
+        <view  bindtap='jumpSearch'>
+          <image class="widget__right" src="./../img/photo_page@2x.png" mode="aspectFill"/>
+        </view>
+      </view>
+    </view>
+    <view class="section bgc_img">
+          <view  class="chapiao" bindtap='jumpFast'>
+        </view>
+    </view>
+    <view class="footer">
+      <view bindtap="personCenter"><image class="footer_left_img" src="./../img/me@2x.png" mode="aspectFill"/></view>
+      </view>
+
+  </view>
